@@ -38,7 +38,7 @@ function randomQuote() {
 
 function copyQuote() {
   navigator.clipboard.writeText(
-    `${quoteText.textContent} - ${authorText.textContent} | Via. xxx`
+    `${quoteText.textContent} - ${authorText.textContent} | via. https://github.com/cetinsangu/quotegenerator.git`
   );
   copied.classList.remove('copy-hidden');
 }
@@ -51,12 +51,12 @@ function textToSpeech() {
 }
 
 function shareTwitter() {
-  const shareUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}%0a - Via. Cetin`;
+  const shareUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}%0a - via. https://github.com/cetinsangu/quotegenerator.git`;
   window.open(shareUrl, '_blank');
 }
 
 function shareWhatsapp() {
-  const shareUrl = `https://api.whatsapp.com/send?text=${quoteText.textContent} - ${authorText.textContent}%0a | via. Cetin`;
+  const shareUrl = `https://api.whatsapp.com/send?text=${quoteText.textContent} - ${authorText.textContent}%0a | via. https://github.com/cetinsangu/quotegenerator.git`;
   window.open(shareUrl, '_blank');
 }
 
