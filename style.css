@@ -121,9 +121,11 @@ button:active {
 }
 
 @media screen and (max-width: 720px) {
+  body {
+    overflow: visible;
+  }
   .quote-container {
     margin: auto 15px;
-    /* overflow-x: hidden; */
   }
 
   #new-quote {
