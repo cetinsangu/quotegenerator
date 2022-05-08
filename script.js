@@ -47,11 +47,12 @@ function textToSpeech() {
   let utterance = new SpeechSynthesisUtterance(
     `${quoteText.textContent} by ${authorText.textContent}`
   );
+  utterance.lang = 'en-US';
   synth.speak(utterance);
 }
 
 function shareTwitter() {
-  const shareUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}%0a - via. https://github.com/cetinsangu/quotegenerator.git`;
+  const shareUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}%0a via. https://github.com/cetinsangu/quotegenerator.git`;
   window.open(shareUrl, '_blank');
 }
 
