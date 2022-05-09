@@ -10,6 +10,6 @@
 
 ## Example Images
 
-![example1](example-imgs/example1.png)
-![example2](example-imgs/example2.png)
-![example3](example-imgs/example3.png)
+![example1](example-imgs/example-page.png)
+![example2](example-imgs/example-twitter.png)
+![example3](example-imgs/example-whatsapp.png)
