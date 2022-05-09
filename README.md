@@ -5,7 +5,7 @@
 - **Navigator.clipboard** for copying texts.
 - Text to speech functionality. I used **SpeechSynthesisUtterance**. Specialized for only English lang.
 - Twitter intent links, adding **%0a** to the link for create a new line.
-- Whatsapp direct sharing, I used Whatsapp api link.
+- Whatsapp direct sharing, I used Whatsapp API link.
 - Fetching data with **async/await**.
 
 ## Example Images
