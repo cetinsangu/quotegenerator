@@ -1,4 +1,4 @@
-# Random Quote Generator by Cetin Sangu | HTML & CSS & Vanilla Javascript | Type.fit API
+# Random Quote Generator | HTML & CSS & Vanilla Javascript | Type.fit API
 
 ## What did I use?
 
